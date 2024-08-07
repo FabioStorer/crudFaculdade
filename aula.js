@@ -20,13 +20,13 @@ const model = (id = ++ultimoId) => {
     if (materia.index()) {
         idMateria = parseInt(prompt('Digite o ID do matéria: '));
     } else {
-        console.log('Cadastre um matéria antes de realizar essa ação!');
+        console.log('Cadastre uma matéria antes de realizar essa ação!');
     }
 
     if (sala.index()) {
         idMateria = parseInt(prompt('Digite o ID do sala: '));
     } else {
-        console.log('Cadastre um sala antes de realizar essa ação!');
+        console.log('Cadastre uma sala antes de realizar essa ação!');
     }
 
     if (professor.show(idProfessor) &&
