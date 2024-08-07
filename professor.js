@@ -12,6 +12,7 @@ const model = (id = ++ultimoId) => {
             nome
         };
     }
+    console.log('Dados inválidos!');
 };
 
 const store = () => {
@@ -20,8 +21,8 @@ const store = () => {
 
     if (novo) {
         db.push(novo);
+        console.log('Registro concluído com sucesso!')
     }
-    console.log('Dados inválidos!');
 };
 
 const index = () => {
